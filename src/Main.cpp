@@ -1,4 +1,4 @@
-#include "Perceptron.hpp"
+#include "../include/Perceptron.hpp"
 
 int main(void)
 {

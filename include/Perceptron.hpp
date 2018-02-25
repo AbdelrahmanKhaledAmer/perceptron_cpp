@@ -17,11 +17,8 @@
 
 class Perceptron
 {
-  private:
-    int sizeOfWeights_;
-
   public:
-    float *weights;
+    std::vector<float> weights;
     float learningRate;
 
     Perceptron(int, float);
